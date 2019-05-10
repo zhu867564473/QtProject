@@ -34,4 +34,4 @@ FORMS += \
         mainwindow.ui \    
 
 INCLUDEPATH += $$[QT_HOST_PREFIX]/../../Tools/QtCreator/bin/plugins/designer/include
-LIBS += -L$$[QT_HOST_PREFIX]/../../Tools/QtCreator/bin/plugins/designer/lib/ -lcustomwidgetplugin
+LIBS += -L$$[QT_HOST_PREFIX]/../../Tools/QtCreator/bin/plugins/designer/lib/ -lMagicFish -lcustomwidgetplugin

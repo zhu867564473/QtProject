@@ -6,46 +6,37 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>211</width>
-    <height>264</height>
+    <width>451</width>
+    <height>357</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
   <widget class="QWidget" name="centralWidget">
-   <layout class="QHBoxLayout" name="horizontalLayout">
+   <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <widget class="AnalogClock" name="widget"/>
+     <widget class="MagicPool" name="magicPool">
+      <property name="toolTip">
+       <string>A fish.</string>
+      </property>
+      <property name="whatsThis">
+       <string>A fish that draw with QQuickPaintedItem.</string>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
-  <widget class="QMenuBar" name="menuBar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>211</width>
-     <height>23</height>
-    </rect>
-   </property>
-  </widget>
-  <widget class="QToolBar" name="mainToolBar">
-   <attribute name="toolBarArea">
-    <enum>TopToolBarArea</enum>
-   </attribute>
-   <attribute name="toolBarBreak">
-    <bool>false</bool>
-   </attribute>
-  </widget>
-  <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <customwidgets>
   <customwidget>
-   <class>AnalogClock</class>
+   <class>MagicPool</class>
    <extends>QWidget</extends>
-   <header>analogclock.h</header>
+   <header>magicpool.h</header>
   </customwidget>
  </customwidgets>
  <resources/>
